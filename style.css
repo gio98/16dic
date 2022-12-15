@@ -411,6 +411,10 @@ top: 35px;
 
 }
 
+.btn2{
+  z-index: 100;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -446,7 +450,7 @@ top: 35px;
   background: var(--color-sky-bottom);
   background: linear-gradient(to bottom, var(--color-sky-top), var(--color-sky-bottom));
   width: 100vw;
-  height: 100vh;
+  height: 124vh;
 }
 
 /* Add Animation */
@@ -666,12 +670,28 @@ top: 35px;
 .bc-m {
   width: 399px;
 }
-
+.poss {
+  position: relative;
+  top:-443px;
+  left:0px;
+  z-index: 100;
+}
 }
 
   
 
 @media (orientation:landscape) {
+  .poss {
+    position: relative;
+    top:-98px;
+    left:0px;
+    z-index: 100;
+  }
+  .sizelndscp
+  {
+    width: 416px;
+    height: 263px;
+  }
   body {
     background-image: url(pupazzo.jpg);
     background-repeat: no-repeat;
@@ -1364,7 +1384,12 @@ top: 35px;
     .bc-m {
       width: 399px;
     }
-    
+    .poss {
+      position: relative;
+      top:-443px;
+      left:0px;
+      z-index: 100;
+    }
     }
     
-      
+  

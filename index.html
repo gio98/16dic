@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <meta charset="UTF-8">
   <title>Auguri Vita</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -27,6 +28,7 @@
 	<div class="gioan">
 		<img class="lndscp" src="gioan.jpeg" style="width: 168px;">
 	</div>
+
 	
 	<button id="myBtn" class="btn1">Click me!</button>
 
@@ -40,10 +42,14 @@
       
     </div>
     <div class="modal-body">
+		
 		<div class="tiamo"><h2>TI AMO IMMENSAMENTE AMORE DELLA MIA VITA!</h2></div>
 		<div class="testo"><p>¡Feliz cumpleaños a la persona que alegra mi vida todos los días con su increíble dulzura llena mi corazón de amor y me da fuerzas para enfrentar cada desafío! Te deseo hoy un hermoso cumpleaños que pasaremos juntos, este día que estoy segura será inolvidable y único! ¡Que Dios te bendiga todos los días y estaré allí para protegerte siempre y admirar tu increíble sonrisa que como la luz del sol me hace abrir los ojos listos para enfrentar cualquier desafío! Estoy orgulloso de cada meta que has alcanzado y que juntos hemos afrontado y ganado. ¡Estoy feliz de estar aquí contigo para pasar este increíble día juntos! Sigue adelante amor de mi vida con la fuerza que tienes en tu corazón para nunca rendirte y que esta meta te abra nuevas e increíbles aventuras y yo estaré aquí contigo para animarte a nunca dejar que te rindas, porque como tú siempre enséñame que somos capaces de superar cada obstáculo! ¡Gracias por existir en mi vida y por hacerme vivir con cada uno de tus increíbles gestos, gracias por darme energía y fuerza para superar cada desafío y llegar siempre a la meta! Te amo inmensamente con todo mi corazón que existe cada día y late por ti que existes para acoger tu alma y protegerla de todo mal porque cada día te mereces solo lo mejor! Te amo inmensamente desde el fondo de mi mente y cuerpo existiendo todos los días para colmarte de amor y abrazos con todo el amor y el amor para hacerte sonreír mientras mantengo los ojos cerrados para ver tu increíble sonrisa desde el fondo de mi corazón mientras yo te abrazo fuerte y escucho la melodía de tu corazón y el dulce canto de tu voz! ¡Te amo inmensamente desde el fondo de mi alma que se une a la tuya todos los días para ser uno y enfrentar todos los desafíos juntos!</p></div>
-		
+	
 		<div class="letters"><H1>A+G = POR SIEMPRE Y MAS ALLA!</H1></div>
+
+		
+
 		<div id="hearts-alpaca" class="hearts">
 			<div class="heart"></div>
 			<div class="heart"></div>
@@ -65,7 +71,9 @@
 			width: 276px;
 		"></div>
     </div>
-   
+	<div  class="poss">
+		<iframe class="sizelndscp" width="560" height="310" src="https://www.youtube.com/embed/LZZ1yM8W44k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
   </div>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.js'></script><script  src="./script.js"></script>
@@ -82,6 +90,7 @@
 	// When the user clicks the button, open the modal 
 	btn.onclick = function() {
 		modal.style.display = "block";
+		$("#song").hide();
 	}
 	
 	// When the user clicks on <span> (x), close the modal
